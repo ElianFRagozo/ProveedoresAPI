@@ -1,0 +1,40 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Proveedores</title>
+</head>
+<body>
+    <h1>Proveedores</h1>
+    <form id="form-crear-proveedor">
+        <input type="text" id="nit" placeholder="NIT">
+        <input type="text" id="razon-social" placeholder="Razón social">
+        <input type="text" id="direccion" placeholder="Dirección">
+        <input type="text" id="ciudad" placeholder="Ciudad">
+        <input type="text" id="departamento" placeholder="Departamento">
+        <input type="email" id="correo" placeholder="Correo">
+        <label>
+            <input type="checkbox" id="activo">
+            Activo
+        </label>
+        <button type="submit">Crear</button>
+    </form>
+    <table id="tabla-proveedores">
+        <thead>
+            <tr>
+                <th>NIT</th>
+                <th>Razón social</th>
+                <th>Dirección</th>
+                <th>Ciudad</th>
+                <th>Departamento</th>
+                <th>Correo</th>
+                <th>Activo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
